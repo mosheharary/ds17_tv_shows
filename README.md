@@ -29,11 +29,25 @@ Each model was evaluated using Mean Squared Error (MSE) and R-squared (R²) metr
 Plots were generated to show the difference between predicted and actual values for each model.
 Feature Selection:
 
-The selected features for the models were: Index(['number_of_episodes', 'vote_count', 'vote_average', 'genres_Drama', 'genres_Sci-Fi_and_Fantasy', 'genres_Action_and_Adventure', 'genres_Comedy', 'genres_Animation', 'genres_Soap', 'genres_UnKnown'], dtype='object')
+The selected features for the models were: 
+  'number_of_episodes'
+  'vote_count'
+  'vote_average'
+  'genres_Drama'
+  'genres_Sci-Fi_and_Fantasy'
+  'genres_Action_and_Adventure'
+  'genres_Comedy'
+  'genres_Animation'
+  'genres_Soap'
+  'genres_UnKnown'
 
 Hyperparameter Tuning:
 
-Conducted for the Random Forest model using GridSearchCV.
-Best parameters found: {'max_depth': 5, 'min_samples_split': 10, 'n_estimators': 100}
+Conducted for the GradientBoostingRegressor model using GridSearchCV.
+Best parameters found: {'max_depth': 5, 'min_samples_split': 2, 'n_estimators': 50}
+
+Best GradientBoostingRegressor 
+  MSE: 1690.6698589381194
+  R2: -0.18620335062826854
 
 
