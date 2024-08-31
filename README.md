@@ -6,12 +6,12 @@
 + [Model selection  and Prediction](https://github.com/mosheharary/ds17_tv_shows/blob/main/tv_model_selection_and_prediction.ipynb)
 
 
-+ Data Preparation:
+Data Preparation:
 
 Loaded the dataset and checked for missing values.
 Dropped irrelevant columns and filled missing values with the median.
 
-+ Selected the top 10 features using SelectKBest.
+Selected the top 10 features using SelectKBest.
 
 Regression Models Used:
 
